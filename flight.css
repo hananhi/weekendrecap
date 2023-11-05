@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#flight-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 40px;
+   
+}
+#add_flight{
+    display: none;
+}
+
+#flight-container > * {
+    border:2px solid rgb(255, 118, 118);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: pink;
+    width: 200px;
+}
+h1{
+    text-align: center;
+    
+}
